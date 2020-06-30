@@ -1,0 +1,65 @@
+@media screen and (max-width:768px) {
+    body {
+        overflow-x: hidden;
+        text-align: center;
+    }
+    nav {
+        width: 30%;
+    }
+    nav ul li {
+        margin: 1px 10px;
+    }
+    .flex>div {
+        width: 100%;
+    }
+    .flex {
+        flex-direction: column;
+    }
+    .flex>div:first-child {
+        margin-right: 0;
+        order: 2;
+    }
+    .flex>div:last-child {
+        margin-right: 0;
+    }
+    .flex,
+    .cont {
+        order: 3;
+    }
+    .firstsection {
+        height: 150vh;
+    }
+    .curve {
+        background-image: url(images/bg-curve-mobile.svg);
+    }
+    .greenarrow:after {
+        margin-left: 30%;
+    }
+    .testimonial-box {
+        width: 100%;
+    }
+    .illustration {
+        margin-top: 30px;
+    }
+    .userinf {
+        justify-content: center;
+    }
+    form input {
+        flex: 1;
+    }
+    form {
+        flex-direction: column;
+    }
+    form button {
+        margin-top: 20px;
+        width: 90%;
+    }
+    .foot {
+        flex-direction: column;
+        margin: 0;
+    }
+    footer ul {
+        padding: 5px;
+        width: 100%;
+    }
+}
